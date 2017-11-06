@@ -1,0 +1,37 @@
+page-home {
+
+    #authentificationButton{
+        display: block;
+        margin-top: 50px;
+        background-color: #f93208;
+    }
+
+    #inputName{
+        //margin-top: 5px;
+        width: 100%;
+    }
+
+    #compteButton{
+        display: block;
+        margin: 12px auto;
+        margin-top: 20px;
+    }
+
+    #inputPassWord{
+        width: 100%;
+    }
+
+    #userName{
+        margin-bottom: 5px;
+    }
+
+    div.scroll-content{
+       background-image: url("/img/back.jpg");
+       padding: 10px;
+       padding-top: 20px;
+    }
+    .item-ios{
+        background: transparent;
+    }
+
+}

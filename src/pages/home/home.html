@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar color = "danger">
+    <ion-title>Accueil</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="body">
+ <!-- <img src="img/back.jpg" style="width:100%; position:absolute">-->
+
+  <ion-list style="background-color:transparent">
+
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input  [(ngModel)] = "email" id = "inputName" type="text"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input [(ngModel)] = "password" id = "inputPassWord" type="password"></ion-input>
+      </ion-item>
+
+  </ion-list>
+
+  <button color="green" (tap)="showMenuPrincipal(email, password)" id = "authentificationButton" ion-button block>Se connecter</button>
+  <p><button (tap)="showInscription()" id = "compteButton" style="color:white" ion-button block>Créer un compte</button></p>
+  <!-- <p><button (tap)="getAuthentificationInfo()" id = "compteButton" style="color:white" ion-button block>Se rappeler</button></p> -->
+  
+</ion-content>
